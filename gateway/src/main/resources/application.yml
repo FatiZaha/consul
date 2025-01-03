@@ -1,0 +1,17 @@
+server:
+  port: 8888
+
+spring:
+  consul:
+    host: localhost
+    port: 8500
+    discovery: Gateway
+  application:
+    name: Gateway
+  cloud:
+    discovery:
+      enabled: true
+
+eureka:
+  instance:
+    hostname: localhost
